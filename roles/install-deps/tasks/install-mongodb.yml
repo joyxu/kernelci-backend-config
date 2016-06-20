@@ -44,6 +44,7 @@
         owner=root
         group=root
         mode=0644
+        state=touch
 
 - name: Install MongoDB
   apt:  pkg={{ item }}
